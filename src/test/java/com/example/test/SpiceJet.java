@@ -23,7 +23,7 @@ public class SpiceJet {
 
     @BeforeMethod
     public  void goHomePage() {
-        driver.get("https://www.spicejet.co.in/");
+        driver.get("https://www.spicejet.in/");
     }
 
     private static void dropDownSelection(WebDriver driver,By element,int number) {
